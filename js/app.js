@@ -19,7 +19,9 @@ generateBtn.addEventListener('click', () => {
     //console.log(randomQuestion);
     q.innerHTML = randomQuestion
     header.remove()
+    a.innerHTML = ''
     //!!!! Добавить что бы при нажатии на кнопку новый вопрос, ответ удалялся и продолжили играть
+    
 })
 
 // Вешаем событие на кнопку и генируруем случайный ответ из массива
